@@ -1,0 +1,51 @@
+:root {
+    --blue-color: #004085 ;
+    --hover-color: #353948 ;
+}
+body{
+    font-family: "Roboto" , sans-serif;
+}
+.navbar{
+    padding: 0;
+
+}
+.navbar>.container{
+    justify-content: center !important;
+}
+.navbar-link{
+    text-decoration: none;
+    color: var(--blue-color);
+    height: auto;
+}
+.navbar-link:hover{
+    background-color: var(--hover-color) ;
+}
+.navbar-nav{
+    text-align: center;
+
+}
+.navbar-nav > li{
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+.logo-img{
+ width: 4rem;
+ height: 4rem;
+ 
+}
+.personal-img{
+    
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.personal-dis{
+
+}
+
+.contact-list>li{
+    height: 80px;
+    min-height: 40%;
+}
